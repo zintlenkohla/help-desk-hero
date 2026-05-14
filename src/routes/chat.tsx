@@ -9,14 +9,14 @@ import { callAI, type ChatMessage } from "@/lib/ai-client";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/chat")({
-  head: () => ({ meta: [{ title: "AI Chat — Workspace AI" }] }),
+  head: () => ({ meta: [{ title: "AI Chat — Stunning Zintle" }] }),
   component: ChatPage,
 });
 
 const SYSTEM: ChatMessage = {
   role: "system",
   content:
-    "You are Workspace AI, a helpful, concise workplace assistant. Use markdown. Ask a clarifying question only when truly necessary.",
+    "You are Stunning Zintle, a helpful, concise workplace assistant. Use markdown. Ask a clarifying question only when truly necessary.",
 };
 
 function ChatPage() {
@@ -114,7 +114,7 @@ function ChatPage() {
               send();
             }
           }}
-          placeholder="Message Workspace AI…"
+          placeholder="Message Stunning Zintle…"
           className="min-h-[48px] resize-none"
         />
         <Button onClick={send} disabled={loading || !input.trim()} size="lg">

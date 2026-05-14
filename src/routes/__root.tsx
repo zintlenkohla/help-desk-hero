@@ -51,10 +51,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Workspace AI — Productivity Assistant" },
+      { title: "Stunning Zintle — Productivity Assistant" },
       { name: "description", content: "AI-powered workplace productivity suite: email, summaries, planning, research, and chat." },
-      { property: "og:title", content: "Workspace AI — Productivity Assistant" },
-      { name: "twitter:title", content: "Workspace AI — Productivity Assistant" },
+      { property: "og:title", content: "Stunning Zintle — Productivity Assistant" },
+      { name: "twitter:title", content: "Stunning Zintle — Productivity Assistant" },
       { property: "og:description", content: "AI-powered workplace productivity suite: email, summaries, planning, research, and chat." },
       { name: "twitter:description", content: "AI-powered workplace productivity suite: email, summaries, planning, research, and chat." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/41be557e-2d1b-48c8-b863-e06aee13a679/id-preview-6913bfa6--b27f76ff-5b7d-464f-9ad8-df8aa701c035.lovable.app-1778679663641.png" },
@@ -89,7 +89,7 @@ function RootComponent() {
           <div className="flex min-w-0 flex-1 flex-col">
             <header className="sticky top-0 z-10 flex h-14 items-center gap-2 border-b bg-background/80 px-4 backdrop-blur">
               <SidebarTrigger />
-              <span className="text-sm font-medium text-muted-foreground">Workspace AI</span>
+              <span className="text-sm font-medium text-muted-foreground">Stunning Zintle</span>
             </header>
             <main className="flex-1">
               <Outlet />

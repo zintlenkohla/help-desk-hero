@@ -10,7 +10,7 @@ import { callAI } from "@/lib/ai-client";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/summarizer")({
-  head: () => ({ meta: [{ title: "Notes Summarizer — Workspace AI" }] }),
+  head: () => ({ meta: [{ title: "Notes Summarizer — Stunning Zintle" }] }),
   component: SummarizerPage,
 });
 
