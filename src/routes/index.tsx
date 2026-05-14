@@ -12,7 +12,7 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dashboard — Workspace AI" },
+      { title: "Dashboard — Stunning Zintle" },
       { name: "description", content: "Your AI-powered productivity dashboard." },
     ],
   }),

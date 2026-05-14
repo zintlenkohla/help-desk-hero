@@ -11,7 +11,7 @@ import { callAI } from "@/lib/ai-client";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/research")({
-  head: () => ({ meta: [{ title: "Research Assistant — Workspace AI" }] }),
+  head: () => ({ meta: [{ title: "Research Assistant — Stunning Zintle" }] }),
   component: ResearchPage,
 });
 

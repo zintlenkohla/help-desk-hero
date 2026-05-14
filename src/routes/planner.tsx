@@ -17,7 +17,7 @@ import { callAI } from "@/lib/ai-client";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/planner")({
-  head: () => ({ meta: [{ title: "Task Planner — Workspace AI" }] }),
+  head: () => ({ meta: [{ title: "Task Planner — Stunning Zintle" }] }),
   component: PlannerPage,
 });
 

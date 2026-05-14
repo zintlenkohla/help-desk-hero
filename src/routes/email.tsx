@@ -18,7 +18,7 @@ import { callAI } from "@/lib/ai-client";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/email")({
-  head: () => ({ meta: [{ title: "Email Generator — Workspace AI" }] }),
+  head: () => ({ meta: [{ title: "Email Generator — Stunning Zintle" }] }),
   component: EmailPage,
 });
 
